@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.borders{
+    border-top: 3px  black dashed;
+    border-bottom: 3px  black dashed;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+h5{
+    text-align: center;
+
+    /* padding: 10px; */
+}
+.invoice-body{
+    margin-top: 15px;
+}
+.invoice-body p{
+    font-size: 14.6px;
+    margin-bottom: 10px;
+}
+.invoice-body p span{
+    float: right;
+}
+
+.line{
+    margin-top: 20px;
+    border-bottom: 3px rgba(0, 0, 0, 0.842) dashed;
+    /* border-top: 3px black dashed; */
+    margin-bottom: 15px;
+}
+.total{
+    border-bottom:3px black dashed;
+    margin-bottom:20px;
+}
+.total p{
+    font-weight: bold;
+    
+}
+.total p span{
+    float: right;
+}
+
+.sign{
+    margin-top:10px;
+}
+
+.sign p{
+    font-weight: 600;
+}
+.sign p span{
+    /* line-height: 10px; */
+    position:relative;
+    top:6px;
+    left:10px;
+    /* float: right; */
+}
+
+@media print{
+    .text-end{
+        display: none !important;
+    }
+}
